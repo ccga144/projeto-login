@@ -7,6 +7,11 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
+main p{
+    font-size: 0.8em;
+    margin: 10px 0px;
+}
+
 body{
     position: relative;
     width: 100vw;
@@ -18,13 +23,14 @@ img#metal-img{
     width: 30%;
     height: 100%;
     float: left;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 section#login-main{
     width: 70%;
     float: right;
     padding: 20px;
+    padding-top: 5px;
 }
 
 h1{
@@ -39,7 +45,8 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.801);
 }
 
 section#login-main button, input[type='submit']{
@@ -62,6 +69,11 @@ section#email-main, section#password-main{
     border-radius: 7px;
 }
 
+i{
+    color: rgb(255, 255, 255);
+}
+
+
 section#password-main{
     margin-top: 5px;
 }
@@ -71,13 +83,14 @@ section#email-main input, section#password-main input{
     top: 50.08%;
     left: 50%;
     transform: translate(-50%, -50%);
-    left: 54%;
-    padding: 9px;
+    left: 53.55%;
+    padding: 5px;
     width: calc(93% - 6px);
     border-radius: 7px;
     border-color: transparent;
     outline: none;
-    background-color: #49a09d;
+    background-color: rgb(74, 161, 158);
+    font-size: 1em;
 }
 
 section#email-main input::placeholder, section#password-main input::placeholder{
@@ -85,6 +98,10 @@ section#email-main input::placeholder, section#password-main input::placeholder{
     color: rgb(199, 199, 199);
 }
 
-section#email-main input:focus, section#password-main input[selected]{
+section#email-main input:focus, section#password-main input:focus{
     background-color: white;
+}
+
+button i{
+    color: #49a09d;
 }
