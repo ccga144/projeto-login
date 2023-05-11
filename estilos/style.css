@@ -85,6 +85,6 @@ section#email-main input::placeholder, section#password-main input::placeholder{
     color: rgb(199, 199, 199);
 }
 
-section#email-main input:, section#password-main input{
+section#email-main input:focus, section#password-main input[selected]{
     background-color: white;
 }
